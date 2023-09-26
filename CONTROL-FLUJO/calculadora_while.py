@@ -2,6 +2,7 @@
 
 
 entrada = ""
+
 print(f"""
 Bienvenidos a la calculadora
 Para salir escribe Salir
@@ -20,8 +21,7 @@ while True:
             break
         entrada = int(entrada)
         operacion = input("Ingresa operacion: ")
-        num2 = input("Ingresa el otro numero: ")
-        num2 = int(num2)
+        num2 = int(input("Ingresa el otro numero: "))
         if operacion.lower() == "suma":
             entrada += num2
             print(entrada)

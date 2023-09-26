@@ -1,13 +1,9 @@
 """CALCULADORA DE 2 NUMEROS"""
 
-n1 = input("Ingrese primer numero")
+n1 = int(input("Ingrese primer numero "))
+n2 = int(input("Ingrese segundo numero "))
 
-n2 = input("Ingrese segundo numero")
-
-n1 = int(n1)
-n2 = int(n2)
-
-suma = n1+n2
+suma = n1 + n2
 resta = n1 - n2
 multi = n1 * n2
 div = n1 / n2

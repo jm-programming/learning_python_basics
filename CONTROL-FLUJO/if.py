@@ -1,8 +1,8 @@
 """CONDICIONALES IF ELIF ELSE"""
 
 
-edad = input("Que edad tienes?")
-edad = int(edad)
+edad = int(input("Que edad tienes?"))
+
 
 if edad > 17:
     print("Puedes entrar al cine")
